@@ -1,0 +1,11 @@
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    gap: 20px;
+    justify-content: center;
+    background-image: url(../images/print6.webp );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px; 
+}
