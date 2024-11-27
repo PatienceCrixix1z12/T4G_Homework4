@@ -7,28 +7,45 @@
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
+    <div class="header">
     <nav class="navbar">
         <ul>
-    <a href="index.html">Home page</a>
-    <a href="pages/about.html"> About us</a>
-    <a href="pages/contact.html"> Contact us</a>
-    <a href="Gallery">Gallery</a>
+    <a href="#">Home page</a>
+    <a href="#aboutus"> About us</a>
+    <a href="#bigcont"> Contact us</a>
+    <a href="#gallery">Gallery</a>
         </ul>
     </nav>
-  <div class="aboutus">
-    <div class="flex">
-    <h1>About us</a></h1>
-    <p>Welcome to PAT Clothing, where fashion meets style and comfort. We believe in creating clothing that makes you feel confident and express your unique personality. From trendy staples to timeless pieces,
+    </div>
+        
+        <div class="home">
+        <p>At PAT Clothing, we believe that clothing is more than just fabric – it’s a statement of individuality, creativity,
+             and confidence. Our collection is designed to empower you to express your unique style and 
+             embrace the beauty of quality craftsmanship. Whether you're looking for timeless essentials,
+              bold statement pieces, or on-trend designs, we’ve got something for every wardrobe and occasion.</p>
+            </div>
+   
+    <hr>
+ 
+    <h1 > <a id="aboutus"></a> About us</a></h1>
+
+    <div class="aboutus">
+
+        <div class="flex">
+    <div class="aboutsen"><p>Welcome to PAT Clothing, where fashion meets style and comfort. We believe in creating clothing that makes you feel confident and express your unique personality. From trendy staples to timeless pieces,
          our collection is designed to fit every lifestyle. Whether you’re dressing up for a special occasion or keeping it casual,
           we have something perfect for you. Explore our curated selection and discover why 
     PAT Clothing is your go-to destination for quality, affordable fashion. 
           Join our community and step into your best look today!</p>
-
         </div>
-        <div class="flex1">
-            <img src="images/print2.jpeg" alt="">
+        <div class="flex1"><img src="images/print2.jpeg" alt=""> </div>
         </div>
+        
+       
+       
+       
   </div>
+  <hr>
 
 
   <div class="gallary">
@@ -54,7 +71,48 @@
     <div>
         <img src="images/print9.jpg" alt="">
     </div>
+</div>
+    <hr>
+<div>
+    <h2>Contact us</h2>
+</div>
 
-  </div>
+    <div class="bigcont">
+
+    <form action="">
+        <div>
+            <label for="First name">First name</label>
+            <input type="text" placeholder="enter first name" name="" id="" required>
+        </div>
+
+        <div>
+            <label for="lastname">Last name</label>
+            <input type="text" placeholder="enter last name" required>
+        </div>
+
+        <div>
+            <label for="email">email</label>
+            <input type="text" placeholder="enter email" required>
+        </div>
+
+        <div>
+            <label for="Telephone">Telephone</label>
+            <input type="text"  required>
+        </div>
+
+        <div>
+            <textarea name="" id="" placeholder="type your message" rows="10" cols="30"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Send</button>
+        </div>
+       
+
+    </div>
+    </form>
+
+
+  
 </body>
 </html>
